@@ -1,6 +1,6 @@
-//	@file Version: 1.0
+//	@file Version: 1.1
 //	@file Name: Script Name
-//	@file Author: [404] Deadbeat
+//	@file Author: [404] Deadbeat, [GoT] JoSchaap
 //	@file Created: DD/MM/YYYY HH:MM
 //	@file Args:
 
