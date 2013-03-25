@@ -1,4 +1,3 @@
-
 //	@file Version: 1.0
 //	@file Name: playerSetup.sqf
 //	@file Author: [404] Deadbeat
@@ -72,7 +71,7 @@ _player switchMove "amovpknlmstpsraswpstdnon_gear";
 thirstLevel = 100;
 hungerLevel = 100;
 
-_player setVariable["cmoney",100,true];
+_player setVariable["cmoney",200,true];
 _player setVariable["canfood",1,false];
 _player setVariable["medkits",0,false];
 _player setVariable["water",1,false];
@@ -80,11 +79,10 @@ _player setVariable["fuel",0,false];
 _player setVariable["repairkits",0,false];
 _player setVariable["fuelFull", 0, false];
 _player setVariable["fuelEmpty", 1, false];
-//_player setVariable["bombs",false,false];
 _player setVariable["spawnBeacon",0,false];
 _player setVariable["camonet",0,false];
 
 [] execVM "client\functions\playerActions.sqf";
 
-_player groupChat format["Player Initialization Complete"];
+_player groupChat format["GoT2DayZ Initialization Complete"];
 playerSetupComplete = true;
