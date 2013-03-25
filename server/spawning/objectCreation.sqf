@@ -15,7 +15,7 @@ if(_Objtype == "Land_CanisterPlastic_F") then
     _obj setVariable["water",20,true];
 };
 
-if(_Objtype == "Land_Sack_goods_F") then 
+if(_Objtype == "Land_Sacks_goods_F") then 
 {
     _obj setVariable["food",20,true];
 };
