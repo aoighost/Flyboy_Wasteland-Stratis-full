@@ -43,8 +43,8 @@ class balca_loader_main
 		y = safezoneY; h = display_height/2;
 		colorText[] = {1, 1, 1, 1};
 		colorBackground[] = {0,0,0,0};
-		text = "\ca\ui\data\ui_gameoptions_background_ca.paa";
-		font = "Zeppelin32";
+		text = "";
+		font = "TahomaB";
 		sizeEx = 0.032;
 	};
 
@@ -57,8 +57,8 @@ class balca_loader_main
 		y = display_height/2+border_offsetY; h = display_height/2;
 		colorText[] = {1, 1, 1, 1};
 		colorBackground[] = {0,0,0,0};
-		text = "\ca\ui\data\ui_gameoptions_background_ca.paa";
-		font = "Zeppelin32";
+		text = "";
+		font = "TahomaB";
 		sizeEx = 0.032;
 	};
 //abstract classes
@@ -73,7 +73,7 @@ class balca_loader_main
 		sizeEx = 0.023;
 		colorBackground[] = {0.5, 0.5, 0.5, 0};
 		colorText[] = {0.85, 0.85, 0.85, 1};
-		font = "Zeppelin32";
+		font = "TahomaB";
 		text = "";
 	};
 
@@ -87,7 +87,7 @@ class balca_loader_main
 		colorText[] = {1, 1, 1, 1};
 		colorBackground[] = {0,0,0,0};
 		text = "";
-		font = "Zeppelin32";
+		font = "TahomaB";
 		sizeEx = 0.032;
 	};
 
@@ -149,7 +149,7 @@ class balca_loader_main
 		animTexturePressed = "\ca\ui\data\ui_button_down_ca.paa";
 		animTextureDefault = "\ca\ui\data\ui_button_default_ca.paa";
 		period = 0.4;
-		font = "Zeppelin32";
+		font = "TahomaB";
 		
 		soundEnter[] = {"\ca\ui\data\sound\mouse2", 0.09, 1};
 		soundPush[] = {"\ca\ui\data\sound\new1", 0.09, 1};
@@ -158,7 +158,7 @@ class balca_loader_main
 		
 		class Attributes 
 		{
-			font = "Zeppelin32";
+			font = "TahomaB";
 			color = "#E5E5E5";
 			align = "left";
 			shadow = "true";
@@ -166,7 +166,7 @@ class balca_loader_main
 		
 		class AttributesImage 
 		{
-			font = "Zeppelin32";
+			font = "TahomaB";
 			color = "#E5E5E5";
 			align = "left";
 			shadow = "true";
@@ -193,7 +193,7 @@ class balca_loader_main
 		color[] = {0.30, 0.32, 0.21, 1};
 		colorActive[] = {0,0,0,1};
 		colorDisabled[] = {0,0,0,0.3};
-		font = "Zeppelin32";
+		font = "TahomaB";
 		sizeEx = 0.023;
 		soundSelect[] = {"",0.1,1};
 		soundExpand[] = {"",0.1,1};
@@ -224,8 +224,8 @@ class balca_loader_main
 		y = 0.1; h = 0.8;
 		colorText[] = {1, 1, 1, 1};
 		colorBackground[] = {0,0,0,0};
-		text = "\ca\ui\data\ui_gameoptions_background_ca.paa";
-		font = "Zeppelin32";
+		text = "";
+		font = "TahomaB";
 		sizeEx = 0.032;
 	};
 
