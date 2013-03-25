@@ -1,8 +1,3 @@
-//	@file Version: 1.1
-//	@file Name: mission_LightArmVeh.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy, [GoT] JoSchaap
-//	@file Created: 08/12/2012 15:19
-//	@file Args:
 #include "setup.sqf"
 #include "mainMissionDefines.sqf";
 
@@ -37,7 +32,7 @@ _vehicleClass = ["O_Ifrit_GMG_F","B_Hunter_HMG_F","B_Hunter_RCWS_F","O_Ifrit_MG_
 _vehicle = [_vehicleClass,_randomPos,0.1,1,0.75,"NONE"] call createMissionVehicle;
 
 _picture = getText (configFile >> "cfgVehicles" >> typeOf _vehicle >> "picture");
-_vehicleName = getText (configFile >> "cfgVehicles" >> typeOf _vehicle >> "displayName");
+_vehicleName = _vehicleClass;
 _hint = parseText format ["<t align='center' color='%4' shadow='2' size='1.75'>Main Objective</t><br/><t align='center' color='%4'>------------------------------</t><br/><t align='center' color='%5' size='1.25'>%1</t><br/><t align='center'><img size='5' image='%2'/></t><br/><t align='center' color='%5'>A<t color='%4'> %3</t>, has been spoted in the area marked</t>", _missionType, _picture, _vehicleName, mainMissionColor, subTextColor];
 messageSystem = _hint;
 publicVariable "messageSystem";
