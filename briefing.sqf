@@ -90,11 +90,13 @@ player createDiaryRecord["changelog",
 "
 <br/>
 		[Added] New main mission (Convoy) By Sanjo.<br/>
-		[Added] MiniConvoy Sidemission (Based on Sanjo's Convoy)<br/>
+		[Added] MiniConvoy Sidemission (JoSchaap) Original by Sanjo<br/>
 		[Added] Posibility to move and airlift small bunkers<br/>
+		[Added] More interesting baseparts to be taken from all over the map<br/>
+		[Added] Food,Water,Fuel sources asswell as the refuel option<br/>
 		[Fixed] Fixed misc font errors.<br/>
 		[Fixed] one of the weap boxes could not be moved.<br/>
-		[Fixed] Survival system.<br/>
+		[Fixed] Survival system now active again!<br/>
 		[Fixed] Now posible to get food,water,fuel !<br/>
 		[Fixed] Ifrit spawn and mission issue's<br/>
 		[Fixed] Vehicle content window missing an image/icon<br/>
