@@ -1,6 +1,6 @@
-//	@file Version: 1.0
+//	@file Version: 1.1
 //	@file Name: mainMissionController.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy
+//	@file Author: [404] Deadbeat, [404] Costlyy,[GoT] JoSchaap
 //	@file Created: 08/12/2012 15:19
 #include "setup.sqf"
 #include "mainMissions\mainMissionDefines.sqf";
@@ -12,23 +12,13 @@ private ["_MMarray","_lastMission","_randomIndex","_mission","_missionType","_ne
 diag_log format["WASTELAND SERVER - Started Main Mission State"];
 
 //Main Mission Array
-/*
-	[mission_SupplyDrop,"mission_SupplyDrop"],
-	[mission_APC,"mission_APC"],
-    [mission_Heli,"mission_Heli"],
-    [mission_LightTank,"mission_LightTank"],
-    [mission_MBT,"mission_MBT"],
-    [mission_Outpost,"mission_Outpost"],
-    [mission_RadarTruck,"mission_RadarTruck"]];
-*/
-_MainMissions = [
-	[mission_ArmedHeli,"mission_ArmedHeli"],
-	[mission_LightArmVeh,"mission_LightArmVeh"],
-	[mission_CivHeli,"mission_CivHeli"],
-	[mission_Convoy,"mission_Convoy"]
-];
-_lastMission = "nomission";
 
+_MMarray = [[mission_ArmedHeli,"mission_ArmedHeli"],
+			[mission_LightArmVeh,"mission_LightArmVeh"],
+			[mission_CivHeli,"mission_CivHeli"],
+			[mission_Convoy,"mission_Convoy"]];
+            
+_lastMission = "nomission";
 while {true} do
 {
     //Select Mission
