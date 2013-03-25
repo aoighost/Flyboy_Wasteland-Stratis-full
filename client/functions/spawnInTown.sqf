@@ -1,6 +1,6 @@
-//	@file Version: 1.0
+//	@file Version: 1.1
 //	@file Name: spawnInTown.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy
+//	@file Author: [404] Deadbeat, [404] Costlyy, [GoT] JoSchaap
 //	@file Created: 20/11/2012 05:19
 //	@file Args: [int(which button)]
 
@@ -110,8 +110,3 @@ switch(_switch) do
 		}forEach cityList;
     };
 };
-sleep 5;
-_mins = floor(60 * (daytime - floor(daytime)));
-[
-	"404 Wasteland",_townName,format ["%1:%3%2", floor(daytime), _mins, if(_mins < 10) then {"0"} else {""}]
-] spawn BIS_fnc_infoText;
