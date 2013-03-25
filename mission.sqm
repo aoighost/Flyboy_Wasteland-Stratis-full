@@ -10,7 +10,9 @@ class Mission
 		"A3_Characters_F_OPFOR",
 		"A3_Weapons_F",
 		"A3_Soft_F_Ifrit",
-		"A3_Characters_F_Civil"
+		"A3_Characters_F_Civil",
+		"A3_Structures_F_Mil_Fortification",
+		"A3_Structures_F_Walls"
 	};
 	addOnsAuto[]=
 	{
@@ -18,12 +20,14 @@ class Mission
 		"A3_Soft_F_Ifrit",
 		"A3_Characters_F_OPFOR",
 		"A3_Characters_F_Civil",
+		"A3_Structures_F_Mil_Fortification",
+		"A3_Structures_F_Walls",
 		"a3_map_stratis"
 	};
 	randomSeed=14957468;
 	class Intel
 	{
-		briefingName="Wasteland v1.08 (GoT/JoSchaap)";
+		briefingName="GoT Wasteland v1.08 (GoT/JoSchaap)";
 		briefingDescription="GoT (Complete Edition) Wasteland Survival Sandbox - Originally by: 404Games.co.uk - modded by: JoSchaap - Also visit: got2dayz.nl or fb.me/got2dayz - Mission Source+DL at: github.com/JoSchaap";
 		resistanceWest=0;
 		startWeather=0.30000001;
