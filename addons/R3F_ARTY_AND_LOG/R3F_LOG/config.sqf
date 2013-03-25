@@ -55,8 +55,6 @@ R3F_LOG_CFG_objets_heliportables = [
     	"O_Ifrit_GMG_F",
     	"Land_Cargo_House_V1_F",
     	"Land_Cargo_House_V2_F",
-	"Land_Cargo_Patrol_V1_F",
-	"Land_Cargo_Patrol_V2_F"
 ];
 
 
@@ -88,15 +86,17 @@ R3F_LOG_CFG_objets_transportables =  [
 	["Box_NATO_Wps_F", 5],
 	["Box_NATO_WpsSpecial_F", 5],
 	["Land_CanisterPlastic_F", 1],
-	["Land_Fireplace_F", 5],
-	["Land_Sack_goods_F", 1],
-	["Land_MetalBarrel_F", 1],
+	["Land_Fireplace_F", 3],
+	["Land_Sack_goods_F", 2],
+	["Land_MetalBarrel_F", 2],
 	["Land_HBarrierBig_F", 5],
 	["Land_HBarrier_3_F", 3],
     	["Land_HBarrier_5_F", 5],
 	["Land_CargoBox_V1_F", 2],
     	["O_Quadbike_F", 10],
-    	["B_Quadbike_F", 10]
+    	["B_Quadbike_F", 10],
+	["Land_LampHalogen_F", 5],
+	["Land_ToiletBox_F", 5]
 ];
 
 /****** MOVABLE-BY-PLAYER OBJECTS / OBJETS DEPLACABLES PAR LE JOUEUR ******/
@@ -120,15 +120,6 @@ R3F_LOG_CFG_objets_deplacables = [
     	"B_Quadbike_F",
     	"Land_Cargo_House_V1_F",
     	"Land_Cargo_House_V2_F",
-	"Land_Cargo_Patrol_V1_F",
-	"Land_Cargo_Patrol_V2_F"
+	"Land_LampHalogen_F",
+	"Land_ToiletBox_F"
 ];
-
-/*
- * List of files adding objects in the arrays of logistics configuration (e.g. R3F_LOG_CFG_remorqueurs)
- * Add an include to the new file here if you want to use the logistics with a new addon.
- * 
- * Liste des fichiers ajoutant des objets dans les tableaux de fonctionnalit�s logistiques (ex : R3F_LOG_CFG_remorqueurs)
- * Ajoutez une inclusion vers votre nouveau fichier ici si vous souhaitez utilisez la logistique avec un nouvel addon.
- */
-//#include "addons_config\arma2_CO_objects.sqf"
