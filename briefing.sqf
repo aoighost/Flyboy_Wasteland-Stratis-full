@@ -6,7 +6,7 @@ player createDiarySubject ["GoT2DayZ", "GoT2DayZ Info"];
 
 player createDiaryRecord["changelog",
 [
-"1.01",
+"1.01(404)",
 "
 <br/>
 		[Fixed] - Gun Stores<br/>
@@ -19,7 +19,7 @@ player createDiaryRecord["changelog",
 
 player createDiaryRecord["changelog",
 [
-"1.02",
+"1.02(404)",
 "
 <br/>
 		[Fixed] - Respawning Vehicles<br/>
@@ -30,7 +30,7 @@ player createDiaryRecord["changelog",
 
 player createDiaryRecord["changelog",
 [
-"1.03",
+"1.03(404)",
 "
 <br/>
 		[Added] - Light Armed Vehicle Mission (All armed cars).<br/>
@@ -41,7 +41,7 @@ player createDiaryRecord["changelog",
 
 player createDiaryRecord["changelog",
 [
-"1.05",
+"1.05(404)",
 "
 <br/>
 		[Added] Uniforms,Hats and Vests to the gunstore.<br/>
@@ -58,7 +58,7 @@ player createDiaryRecord["changelog",
 
 player createDiaryRecord["changelog",
 [
-"1.06",
+"1.06(404)",
 "
 <br/>
 		[Fixed] Fix to make Ammo boxes moveable.(thanks to meat147).<br/>
