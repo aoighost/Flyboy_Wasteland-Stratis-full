@@ -44,7 +44,7 @@
 		w = 0.12;
 		h = str_height;
 
-		font = "Zeppelin32";
+		font = "TahomaB";
 		sizeEx = 0.03;
 
 		rowHeight = 0.1;
@@ -89,7 +89,7 @@
 		sizeEx = 0.023;
 		colorBackground[] = {0.5, 0.5, 0.5, 0};
 		colorText[] = {0.85, 0.85, 0.85, 1};
-		font = "Zeppelin32";
+		font = "TahomaB";
 		text = "";
 	};
 
@@ -98,7 +98,7 @@
 		type = CT_EDIT;
 		style = ST_LEFT+ST_MULTI;
 		idc = -1;
-		font = "Zeppelin32";
+		font = "TahomaB";
 		sizeEx = 0.026;
 		htmlControl = true;
 		lineSpacing = 0.004;
@@ -120,7 +120,7 @@
 		colorText[] = {1, 1, 1, 1};
 		colorBackground[] = {0,0,0,0};
 		text = "";
-		font = "Zeppelin32";
+		font = "TahomaB";
 		sizeEx = 0.032;
 	};
 
@@ -178,11 +178,11 @@
 		animTextureNormal = "client\ui\ui_button_normal_ca.paa";
 		animTextureDisabled = "client\ui\ui_button_disabled_ca.paa";
 		animTextureOver = "client\ui\ui_button_over_ca.paa";
-		animTextureFocused = "client\ui\ui_button_focus_ca.01.paa";
+		animTextureFocused = "client\ui\ui_button_down_ca.paa";
 		animTexturePressed = "client\ui\ui_button_down_ca.paa";
 		animTextureDefault = "client\ui\ui_button_default_ca.paa";
 		period = 0.4;
-		font = "Zeppelin32";
+		font = "TahomaB";
 		
 		soundEnter[] = {"\A3\ui_f\data\Sound\MOUSE2", 0.09, 1};
 		soundPush[] = {"\A3\ui_f\data\Sound\NEW1", 0.09, 1};
@@ -191,7 +191,7 @@
 		
 		class Attributes 
 		{
-			font = "Zeppelin32";
+			font = "TahomaB";
 			color = "#E5E5E5";
 			align = "left";
 			shadow = "true";
@@ -199,7 +199,7 @@
 		
 		class AttributesImage 
 		{
-			font = "Zeppelin32";
+			font = "TahomaB";
 			color = "#E5E5E5";
 			align = "left";
 			shadow = "true";
@@ -226,7 +226,7 @@
 		color[] = {0.7, 0.7, 0.7, 1};
 		colorActive[] = {0,0,0,1};
 		colorDisabled[] = {0,0,0,0.3};
-		font = "Zeppelin32";
+		font = "TahomaB";
 		sizeEx = 0.023;
 		soundSelect[] = {"",0.1,1};
 		soundExpand[] = {"",0.1,1};
@@ -257,8 +257,8 @@
 		y = 0.1; h = 0.8;
 		colorText[] = {1, 1, 1, 1};
 		colorBackground[] = {0,0,0,0};
-		text = "\ca\ui\data\ui_gameoptions_background_ca.paa";
-		font = "Zeppelin32";
+		text = "";
+		font = "TahomaB";
 		sizeEx = 0.032;
 	};
 
@@ -306,17 +306,17 @@
 		ptsPerSquareRoad = 2;
 		ptsPerSquareObj = 10;
 
-		fontLabel = "Zeppelin32";
+		fontLabel = "TahomaB";
 		sizeExLabel = 0.034000;
-		fontGrid = "Zeppelin32";
+		fontGrid = "TahomaB";
 		sizeExGrid = 0.034000;
-		fontUnits = "Zeppelin32";
+		fontUnits = "TahomaB";
 		sizeExUnits = 0.034000;
-		fontNames = "Zeppelin32";
+		fontNames = "TahomaB";
 		sizeExNames = 0.056000;
-		fontInfo = "Zeppelin32";
+		fontInfo = "TahomaB";
 		sizeExInfo = 0.034000;
-		fontLevel = "Zeppelin32";
+		fontLevel = "TahomaB";
 		sizeExLevel = 0.034000;
 		
 		text = "\ca\ui\data\map_background2_co.paa";
@@ -344,7 +344,7 @@
 			y = -1;
 			w = 0.340000;
 			h = 0.152000;
-			font = "Zeppelin32";
+			font = "TahomaB";
 			sizeEx = 0.039210;
 			colorBackground[] = {0.906000, 0.901000, 0.880000, 0.800000};
 			color[] = {0, 0, 0, 1};
