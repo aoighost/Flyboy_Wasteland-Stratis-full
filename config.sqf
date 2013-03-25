@@ -1,6 +1,6 @@
-//	@file Version: 1.0
+//	@file Version: 1.1
 //	@file Name: config.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy
+//	@file Author: [404] Deadbeat, [404] Costlyy, [GoT] JoSchaap
 //	@file Created: 20/11/2012 05:13
 //	@file Description: Main config.
 
@@ -15,8 +15,8 @@
 // Text name, classname, buy cost, sell amount
 weaponsArray = [
 		//Handgun
-	["P07","hgun_P07_F",40,20],
-    ["Rook-40","hgun_Rook40_F",40,20], 
+	["P07","hgun_P07_F",40,45],
+    ["Rook-40","hgun_Rook40_F",40,45], 
     	//Underwater Gun
 	["SDAR","arifle_SDAR_F",100,50],
     	//Assault Rifle
@@ -71,16 +71,16 @@ accessoriesArray = [
 	["Binoculars","Binocular",100,"binoc"],
 	["NV Goggles","NVGoggles",100,"binoc"],
     ["First Aid","FirstAidKit", 100,"item"],
-    ["Medkit","Medikit", 100,"item"],
-    ["Toolkit","ToolKit", 100,"item"],
-  	["Suppressor 9mm","muzzle_snds_L", 100,"item"],
-    ["Suppressor 7.82mm","muzzle_snds_B", 100,"item"],
-    ["Suppressor 6.5mm","muzzle_snds_H", 100,"item"],
-    ["LMG Suppressor 6.5mm","muzzle_snds_H_MG", 100,"item"],
+    ["Medkit","Medikit", 150,"item"],
+    ["Toolkit","ToolKit", 150,"item"],
+  	["Suppressor 9mm","muzzle_snds_L", 150,"item"],
+    ["Suppressor 7.82mm","muzzle_snds_B", 150,"item"],
+    ["Suppressor 6.5mm","muzzle_snds_H", 150,"item"],
+    ["LMG Suppressor 6.5mm","muzzle_snds_H_MG", 150,"item"],
     ["Flash Light","acc_flashlight", 100,"item"],
-    ["RCO Sight","optic_Hamr", 100,"item"],
+    ["RCO Sight","optic_Hamr", 150,"item"],
     ["Holosight","optic_Holosight", 100,"item"],
-    ["ARCO Sight","optic_Arco", 100,"item"],
+    ["ARCO Sight","optic_Arco", 150,"item"],
     ["ACO Sight","optic_Aco", 100,"item"],
     ["Carrier GL Rig (Green)","V_PlateCarrierGL_rgr", 100,"vest"],
     ["Carrier Lite (Coyote)","V_PlateCarrier1_cbr", 100,"vest"],
@@ -123,9 +123,7 @@ generalStore = [
 	["Repair Kit","repairkits",localize "STR_WL_ShopDescriptions_RepairKit","client\icons\briefcase.paa",1000,500],
 	["Medical Kit","medkits",localize "STR_WL_ShopDescriptions_MedKit","client\icons\medkit.paa",400,200],
 	["Jerry Can (Full)","fuelFull",localize "STR_WL_ShopDescriptions_fuelFull","client\icons\jerrycan.paa",150,75],
-    ["Jerry Can (Empty)","fuelEmpty",localize "STR_WL_ShopDescriptions_fuelEmpty","client\icons\jerrycan.paa",50,25],
-	["Spawn Beacon","spawnBeacon",localize "STR_WL_ShopDescriptions_spawnBeacon","",3000,1500],
-    ["Camo Net", "camonet", localize "STR_WL_ShopDescriptions_Camo", "",300,150]  
+    ["Jerry Can (Empty)","fuelEmpty",localize "STR_WL_ShopDescriptions_fuelEmpty","client\icons\jerrycan.paa",50,25]
 ];
 
 // Chernarus town and city array
