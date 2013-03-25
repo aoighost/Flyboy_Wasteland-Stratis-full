@@ -1,6 +1,6 @@
-//	@file Version: 1.0
+//	@file Version: 1.1
 //	@file Name: init.sqf
-//	@file Author: [404] Deadbeat
+//	@file Author: [404] Deadbeat, [GoT] JoSchaap
 //	@file Created: 20/11/2012 05:13
 //	@file Description: The main init.
 //	@file Args:
@@ -13,7 +13,7 @@ X_Server = false;
 X_Client = false;
 X_JIP = false;
 hitStateVar = false;
-versionName = "v1.05 Alpha";
+versionName = "GoT Wasteland v1.08";
 
 if(isServer) then { X_Server = true;};
 if(!isDedicated) then { X_Client = true;};
