@@ -1,6 +1,6 @@
-//	@file Version: 1.0
+//	@file Version: 1.1
 //	@file Name: serverVars.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy, [404] Pulse
+//	@file Author: [404] Deadbeat, [404] Costlyy, [404] Pulse, [GoT] JoSchaap
 //	@file Created: 20/11/2012 05:19
 //	@file Args:
 // --------------------------------------------------------------------------------------------------- \\
@@ -20,11 +20,6 @@ CVG_weapons = CVG_weapons + CVG_Scoped;
 CVG_weapons = CVG_weapons + CVG_Heavy;
 CVG_weapons = CVG_weapons + CVG_pistols;
 CVG_weapons = CVG_weapons + CVG_Launchers;
-
-#ifdef __A2NET__
-missionStartTime = 0;
-netTime = 0;
-#endif
 
 sideMissionPos = "";
 mainMissionPos = "";
@@ -56,31 +51,26 @@ currentStaticHelis = []; // Storage for the heli marker numbers so that we don't
 civilianVehicles = ["c_offroad","B_Quadbike_F", "O_Quadbike_F"];
 
 //Military Vehicle List - Random Spawns
-militaryVehicles = ["c_offroad","O_Galkin_F","B_Hunter_F"];
+militaryVehicles = ["c_offroad","O_Ifrit_F","B_Hunter_F"];
 
 //Armed Military Vehicle List - Random Spawns
-armedMilitaryVehicles = ["B_Hunter_F","O_Galkin_F"];
+armedMilitaryVehicles = ["B_Hunter_F","O_Ifrit_F"];
                             
 //Object List - Random Spawns.
-objectList = ["Land_Barrelwater_F",
+objectList = ["Land_CanisterPlastic_F",
 			"Land_Fireplace_F",
-			"Land_WoodenBox_F",
-			"Land_HBarrier_1_F",
-			"Land_HBarrier_1_F",
+			"Land_Sack_goods_F",
+			"Land_HBarrierBig_F",
+			"Land_HBarrier_5_F",
 			"Land_HBarrier_5_F",
 			"Land_HBarrier_5_F",
 			"Land_HBarrierBig_F",
 			"Land_HBarrierBig_F",
 			"Land_HBarrier_3_F",
-//			"Land_CncBarrier_F", // broken map items
-//			"Land_Mound01_8m_F",
-//			"Land_Mound02_8m_F",
-			"Land_Scaffolding_F",
-//			"Land_Razorwire_F", //isnt currently able to be picked up
 			"Land_HBarrierBig_F",
 			"Land_CargoBox_V1_F",
-			"RampConcrete",
-			"Land_Obstacle_Bridge_F"];
+			"Land_HBarrierBig_F",
+			"Land_MetalBarrel_F"];
                                          
 //Object List - Random Spawns.
 staticWeaponsList = ["B_MK6"];
