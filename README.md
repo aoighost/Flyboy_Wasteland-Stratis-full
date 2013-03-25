@@ -9,8 +9,11 @@ current status: v1.08 (Complete Edition) --> TESTING ONLINE <--
 Changelog
 =========
 [Added] New main mission (Convoy) By Sanjo.
+
 [Added] MiniConvoy Sidemission (JoSchaap) Original by Sanjo
+
 [Added] Posibility to move and airlift small bunkers
+
 [Added] More interesting baseparts to be taken from all over the map
 [Added] Food,Water,Fuel sources asswell as the refuel option
 [Changed] Starting money to 200.
