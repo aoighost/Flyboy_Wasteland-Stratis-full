@@ -1,7 +1,7 @@
 #include "setup.sqf"
-//	@file Version: 1.0
+//	@file Version: 1.1
 //	@file Name: serverCompile.sqf
-//	@file Author: [404] Deadbeat
+//	@file Author: [404] Deadbeat, [GoT] JoSchaap
 //	@file Created: 20/11/2012 05:19
 //	@file Args:
 
@@ -12,11 +12,11 @@ diag_log format["WASTELAND SERVER - Initilizing Server Compile"];
 //Main Mission Compiles
 
 mission_ArmedHeli = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_ArmedHeli.sqf";
+mission_LightArmVeh = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_LightArmVeh.sqf";
 mission_CivHeli = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_CivHeli.sqf";
 mission_Convoy = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_Convoy.sqf";
 /*
 mission_APC = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_APC.sqf";
-mission_LightArmVeh = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_LightArmVeh.sqf";
 mission_LightTank = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_LightTank.sqf";
 mission_MBT = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_MBT.sqf";
 mission_Outpost = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_Outpost.sqf";
@@ -27,6 +27,7 @@ mission_SupplyDrop = compile preprocessFileLineNumbers "server\missions\mainMiss
 //Side Mission Compiles
 mission_AirWreck = compile preprocessFileLineNumbers "server\missions\sideMissions\mission_AirWreck.sqf";
 mission_WepCache = compile preprocessFileLineNumbers "server\missions\sideMissions\mission_WepCache.sqf";
+mission_MiniConvoy = compile preprocessFileLineNumbers "server\missions\sideMissions\mission_MiniConvoy.sqf";
 /*
 mission_Truck = compile preprocessFileLineNumbers "server\missions\sideMissions\mission_Truck.sqf";
 mission_ReconVeh = compile preprocessFileLineNumbers "server\missions\sideMissions\mission_ReconVeh.sqf";
@@ -50,14 +51,9 @@ defendArea = compile preprocessFileLineNumbers "server\functions\defendArea.sqf"
 randomWeapons = compile preprocessFileLineNumbers "server\spawning\randomWeapon.sqf";
 vehicleCreation = compile preprocessFileLineNumbers "server\spawning\vehicleCreation.sqf";
 objectCreation = compile preprocessFileLineNumbers "server\spawning\objectCreation.sqf";
-staticGunCreation = compile preprocessFileLineNumbers "server\spawning\staticGunCreation.sqf";
+// staticGunCreation = compile preprocessFileLineNumbers "server\spawning\staticGunCreation.sqf";
 staticHeliCreation = compile preprocessFileLineNumbers "server\spawning\staticHeliCreation.sqf";
 fn_refillbox = compile preprocessFileLineNumbers "server\functions\fn_refillbox.sqf";
 
 //Player Management
 server_playerDied = compile preprocessFileLineNumbers "server\functions\serverPlayerDied.sqf";
-
-//.Net Compiles
-#ifdef __A2NET__
-arma2NetTime = compile preprocessFileLineNumbers "server\functions\netTime.sqf";
-#endif
