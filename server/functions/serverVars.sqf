@@ -70,6 +70,7 @@ objectList = ["Land_CanisterPlastic_F",
 			"Land_LampDecor_F",
 			"Land_Cargo20_military_F",
 			"Land_HBarrierBig_F",
+			"Land_cargo_addon02_v2_F",
 			"Land_MetalBarrel_F"];
                                          
 //Object List - Random Spawns.
