@@ -57,8 +57,7 @@ militaryVehicles = ["c_offroad","O_Ifrit_F","B_Hunter_F"];
 armedMilitaryVehicles = ["B_Hunter_F","O_Ifrit_F"];
                             
 //Object List - Random Spawns.
-objectList = ["Land_CanisterPlastic_F",
-			"Land_Sacks_goods_F",
+objectList = ["Land_Sacks_goods_F",
 			"Land_HBarrierBig_F",
 			"Land_HBarrier_5_F",
 			"Land_HBarrier_1_F",
