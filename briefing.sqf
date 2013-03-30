@@ -107,6 +107,8 @@ player createDiaryRecord["changelog",
 		[Added] More variaty of basebuilding parts (+new parts!)<br/>
 		[Added] 20mm and 40mm flare rounds to Gunstore<br/>
 		[Added] You can study and build improvised roofs!<br/>
+		[Added] Cargo Containers with 30slots space for parts<br/>
+		[Changed] Cargo Containers can only be Towed or airlifted!<br/>
 		[Changed] Lamp-class for basebuilding due to placement bugs<br/>
 		[Changed] Significantly increased the ammount of spawned objects<br/>
 		[Fixed] Font errors on some rare occasions<br/>
