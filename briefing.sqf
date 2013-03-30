@@ -168,16 +168,7 @@ player createDiaryRecord["GoT2DayZ",
 "Contact Admin",
 "
 <br/>
-	We currently have 1 admin in ArmaA3 (we hope to add more soon):<br/><br/>
-	- JoSchaap<br/>
-	You can contact admins through different ways.<br/>
-	<br/>
-	 1) Join our Teamspeak channel on teamspeak.gotlike.nl -> Arma3.<br/>
-	 2) Leave a message on our chat on www.got2dayz.nl<br/>
-	 3) Send us a private message on facebook: fb/me/GoT2DayZ<br/>
-	<br/>
-	NOTICE! The server may crash unexpectedly (No message recieved) <br/>
-	If this happens it will autorestart and be back within 10 seconds! <br/>
+	The Server Hoster can provide admin info here! <br/>
 
 "
 ]
