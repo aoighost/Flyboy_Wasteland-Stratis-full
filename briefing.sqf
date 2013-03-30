@@ -86,9 +86,10 @@ player createDiaryRecord["changelog",
 
 player createDiaryRecord["changelog",
 [
-"1.08(GoT)",
+"1.08b(GoT)",
 "
 <br/>
+		*Revision:a*<br/>
 		[Added] New main mission (Convoy) By Sanjo.<br/>
 		[Added] MiniConvoy Sidemission (JoSchaap) Original by Sanjo<br/>
 		[Added] Posibility to move and airlift small bunkers<br/>
@@ -101,6 +102,20 @@ player createDiaryRecord["changelog",
 		[Fixed] Ifrit spawn and mission issue's<br/>
 		[Fixed] Vehicle content window missing an image/icon<br/>
 		[Fixed] Admin-Provinggrounds missing an image/icon<br>
+		<br/>
+		*Revision:b*<br/>
+		[Added] More variaty of basebuilding parts (+new parts!)<br/>
+		[Added] 20mm and 40mm flare rounds to Gunstore<br/>
+		[Added] You can study and build improvised roofs!<br/>
+		[Changed] Lamp-class for basebuilding due to placement bugs<br/>
+		[Changed] Significantly increased the ammount of spawned objects<br/>
+		[Fixed] Font errors on some rare occasions<br/>
+		[Fixed] Desync issues<br/>
+		[Fixed] Bug that enabled players to take map-bound objects (caused desync)<br/>
+		[Fixed] Typo's in stringtables<br/>
+		[Fixed] Dropping food and water through playermenu<br/>
+		[Removed] The metal bunker can no longer be used for basebuilding<br/>
+		[Removed] Funtionality to drop your Jerrycan (doesnt work in arma3)<br/>
 		<br/>
 "
 ]
@@ -116,8 +131,13 @@ player createDiaryRecord["404games",
 	Costlyy<br/>
 	Pulse<br/>
 	Domuk<br/>
-	*Sanjo<br/>
+	<br/>
+	Others:<br/>
+	*Sanjo (GitHub)<br/>
 	<br/>*Convoy MainMission<br/>
+	*Tonic-_- (BIS-forums)<br/>
+	*helped disabling r3f on mapbound items<br/>
+	<br/>
 "
 ]
 ];
@@ -148,7 +168,16 @@ player createDiaryRecord["GoT2DayZ",
 "Contact Admin",
 "
 <br/>
-	The server owner can add his own admin information here<br/>
+	We currently have 1 admin in ArmaA3 (we hope to add more soon):<br/><br/>
+	- JoSchaap<br/>
+	You can contact admins through different ways.<br/>
+	<br/>
+	 1) Join our Teamspeak channel on teamspeak.gotlike.nl -> Arma3.<br/>
+	 2) Leave a message on our chat on www.got2dayz.nl<br/>
+	 3) Send us a private message on facebook: fb/me/GoT2DayZ<br/>
+	<br/>
+	NOTICE! The server may crash unexpectedly (No message recieved) <br/>
+	If this happens it will autorestart and be back within 10 seconds! <br/>
 
 "
 ]
@@ -159,9 +188,9 @@ player createDiaryRecord["GoT2DayZ",
 "Credits",
 "
 <br/>
-	Mod editting:<br/><br/>
-	-JoSchaap<br/>
-	-Anyone who files issues or pull requests on the GiT's<br/>
+	Hosting and mod edits:<br/><br/>
+	JoSchaap<br/>
+	Anyone who files issues or pull requests on the GiT's<br/>
 "
 ]
 ];
