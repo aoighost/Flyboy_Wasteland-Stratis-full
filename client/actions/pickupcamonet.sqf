@@ -11,7 +11,7 @@ if(mutexScriptInProgress) exitWith {
 mutexScriptInProgress = true;
 _camonet = (nearestobjects [getpos player, ["Land_cargo_addon02_V2_F"],  5] select 0);
 
-// deleteVehicle _camonet; (preventing deletion of map-bound objects)
+deleteVehicle _camonet; (preventing deletion of map-bound objects)
 player playmove "AinvPknlMstpSlayWrflDnon";
 
 sleep 2.9;
