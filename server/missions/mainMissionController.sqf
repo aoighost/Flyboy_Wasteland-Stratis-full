@@ -7,7 +7,7 @@
 
 if(!isServer) exitWith {};
 
-private ["_MMarray","_lastMission","_randomIndex","_mission","_missionType","_newMissionArray","_lastMission"];
+private ["_MMarray","_lastMission","_randomIndex","_mission","_missionType","_newMissionArray","_lastMission","_missionCount","_count"];
 
 diag_log format["WASTELAND SERVER - Started Main Mission State"];
 
