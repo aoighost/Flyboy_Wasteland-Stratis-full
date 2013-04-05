@@ -8,7 +8,7 @@ if(!isServer) exitWith {};
 #include "setup.sqf"
 #include "sideMissions\sideMissionDefines.sqf";
 
-private ["_SMarray","_lastMission","_randomIndex","_mission","_missionType","_newMissionArray","_lastMission"];
+private ["_SMarray","_lastMission","_randomIndex","_mission","_missionType","_newMissionArray","_lastMission","_missionCount","_count"];
 
 diag_log format["WASTELAND SERVER - Started Side Mission State"];
 
@@ -21,20 +21,24 @@ _SMarray = [[mission_WepCache,"mission_WepCache"],
 _lastMission = "nomission";
 while {true} do
 {
+	_missionCount = count _MMarray - 1;
 	//Select Mission
-    _randomIndex = (random (count _SMarray - 1));
+    _randomIndex = (random _missionCount);
 	_mission = _SMarray select _randomIndex select 0;
     _missionType = _SMarray select _randomIndex select 1;
-
+	
 	//Select new mission if the same
-    if(str(_missionType) == _lastMission) then
+	//makes the missions more random as it was always possible to get the same random number
+	_count = 0;
+    while(str(_missionType) == _lastMission || _count != _missionCount) do
     {
         _newMissionArray = _SMarray;
         _newMissionArray set [_randomIndex, "REMOVETHISCRAP"];
         _newMissionArray = _newMissionArray - ["REMOVETHISCRAP"];
         _randomIndex = (random (count _newMissionArray - 1));
         _missionType = _newMissionArray select _randomIndex select 1;
-        _mission = _newMissionArray select _randomIndex select 0;   
+        _mission = _newMissionArray select _randomIndex select 0;
+		_count = _count + 1;
     };
     
 	_missionRunning = [] spawn _mission;
